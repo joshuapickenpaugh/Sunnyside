@@ -76,7 +76,7 @@ Public Class SunnysideCalculator
             Select Case _decUnitsOrdered
                 Case 1 To 5
                     ttl = 30 * _decUnitsOrdered
-                Case 6 - 15
+                Case 6 To 15
                     ttl = 28 * _decUnitsOrdered
                 Case >= 16
                     ttl = 25 * _decUnitsOrdered
